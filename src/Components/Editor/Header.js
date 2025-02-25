@@ -23,6 +23,8 @@ const ContainerItem = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 `;
 export default function Header() {
   return (

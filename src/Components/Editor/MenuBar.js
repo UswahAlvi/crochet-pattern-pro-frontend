@@ -4,6 +4,7 @@ const Menubar= styled.div`
   justify-content: space-between;
   background-color: var(--primary-color);
   padding: 10px 30px;
+  margin-bottom: 20px;
 `;
 const MenuItemsContainer= styled.div`
   display: flex;
@@ -11,6 +12,7 @@ const MenuItemsContainer= styled.div`
 `;
 const MenuItem= styled.div`
   font-size: 20px;
+  cursor: pointer;
 `;
 export default function MenuBar() {
   return (
