@@ -1,7 +1,6 @@
-import styled from "styled-components";
+import styled from "styled-components"
+import HeaderBar from "../CommonComponents/HeaderBar"
 import HeaderButton from "../CommonComponents/HeaderButton";
-import HeaderBar from "../CommonComponents/HeaderBar";
-
 const Title = styled.div`
   font-size: 40px;
 `;
@@ -11,15 +10,16 @@ const Container = styled.div`
   gap: 20px;
 `;
 
+
 export default function Header() {
+
   return (
     <HeaderBar>
-      <Title>Crochet Pattern Pro</Title>
+    <Title>Crochet Pattern Pro</Title>
       <Container>
         <HeaderButton text="Learn" />
-        <HeaderButton text="Community" />
-        <HeaderButton text="Signup/Login" />
+        <HeaderButton text="Editor" />
       </Container>
     </HeaderBar>
-  );
+  )
 }

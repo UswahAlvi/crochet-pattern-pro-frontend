@@ -1,6 +1,7 @@
+import Index from "../Components/Login/Index";
 
 export default function Login() {
   return (
-    <div>Login</div>
+    <Index />
   )
 }
